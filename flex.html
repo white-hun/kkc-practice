@@ -8,27 +8,31 @@
     <title>Document</title>
     <style>
       body {
-        height: 1000vh;
         margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
       }
       div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 200px;
         height: 200px;
+        font-size: 50px;
         color: white;
         background-color: gold;
       }
-      #green {
-        background-color: greenyellow;
-        position: fixed;
-        opacity: 0.3;
-      }
-      #different {
-        background-color: tomato;
+      #second {
+        background-color: midnightblue;
       }
     </style>
   </head>
   <body>
-    <div id="green"></div>
-    <div id="different"></div>
+    <div>1</div>
+    <div id="second">2</div>
+    <div>3</div>
   </body>
 </html>
