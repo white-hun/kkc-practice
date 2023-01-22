@@ -8,34 +8,31 @@
     <title>Document</title>
     <style>
       body {
-        background-color: mediumblue;
-        padding: 20px;
         margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
       }
-
-      span {
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+        font-size: 50px;
         color: white;
-        border-style: solid;
-        background-color: skyblue;
-      }
-      .btn {
-        border-radius: 10px;
-        padding: 5px;
-      }
-      .tomato {
-        background-color: navy;
-      }
-      .yeet {
         background-color: gold;
+      }
+      #second {
+        background-color: midnightblue;
       }
     </style>
   </head>
   <body>
-    <span class="btn yeet">hello</span>
-    <span class="btn tomato">hello</span>
-    <span class="btn yeet">hello</span>
-    <span class="btn tomato">hello</span>
-    <span class="btn yeet">hello</span>
-    <span class="btn tomato">hello</span>
+    <div>1</div>
+    <div id="second">2</div>
+    <div>3</div>
   </body>
 </html>
